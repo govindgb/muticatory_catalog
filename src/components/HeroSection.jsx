@@ -10,7 +10,6 @@ export default function HeroSection({ totalItems, categories }) {
         transition={{ delay: 0.1 }}
         className="flex items-center gap-2 flex-wrap mb-5"
       >
-        <span className="tag">Assignment Project</span>
         <span className="tag">{totalItems} Items</span>
         <span className="tag">{categories.length} Categories</span>
       </motion.div>
@@ -41,8 +40,7 @@ export default function HeroSection({ totalItems, categories }) {
         className="text-base sm:text-lg max-w-xl leading-relaxed"
         style={{ color: 'var(--fg-muted)' }}
       >
-        Browse Cars, Bikes, Phones, and Computers — all rendered dynamically
-        from a single JSON source. Filter, search, and explore.
+        Explore the world's most iconic Cars, Bikes, Phones, and Computers — all in one place.
       </motion.p>
     </section>
   );

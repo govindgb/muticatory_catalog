@@ -16,7 +16,7 @@ export default function Footer({ totalItems }) {
           </span>
         </div>
         <p style={{ fontFamily: '"JetBrains Mono", monospace', fontSize: 12, color: 'var(--fg-muted)' }}>
-          {totalItems} items · 4 categories · Frontend Assignment
+          {totalItems} items · 4 categories
         </p>
       </div>
     </footer>

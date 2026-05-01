@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { HashRouter , Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import Navbar from './components/Navbar.jsx';
 import ScrollToTop from './components/ScrollToTop.jsx';
@@ -29,8 +29,8 @@ export default function App() {
   const [searchQuery, setSearchQuery] = useState('');
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <AppRoutes searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
